@@ -1,13 +1,19 @@
 # Architecture
 
 Frontend:
-- Next.js
+- Next.js App Router
 
-Backend:
-- Next.js API routes
+Auth:
+- Clerk handles authentication + sessions
 
 Database:
-- PostgreSQL
+- Supabase Postgres
+
+Backend:
+- Next.js API routes OR server actions
 
 ORM:
-- Prisma
+- Prisma (optional layer over Supabase)
+
+Flow:
+User → Clerk Auth → Next.js App → API → Supabase DB
