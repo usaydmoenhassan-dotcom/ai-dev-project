@@ -1,7 +1,42 @@
-# AI Rules
+# AI Tool Roles
 
-- Always follow docs/architecture.md
-- Do not invent new frameworks
-- Keep backend in /backend
-- Keep frontend in /frontend
-- Write decisions in docs/decisions.md
+ChatGPT:
+- system design
+- feature planning
+
+Claude Code:
+- architecture review
+- debugging backend issues
+
+Codex:
+- backend code generation (API, DB, functions)
+
+Cursor:
+- main development tool (frontend + backend integration)
+
+Antigravity:
+- automation + batch tasks
+
+
+# Tech Stack (LOCKED)
+
+Frontend:
+- Next.js
+
+Auth:
+- Clerk
+
+Database:
+- Supabase (Postgres)
+
+ORM:
+- Prisma (optional)
+
+Hosting:
+- Vercel
+
+# Rules
+
+- Do not change stack without updating this file
+- Always follow architecture.md
+- Keep backend simple and scalable
